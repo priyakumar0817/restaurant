@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Menu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="public/order.js" defer></script>
+    <link rel='stylesheet' type='text/css' href='public/order.css'>
+</head>
+
+
+<body>
+    <h1>Menu</h1>
+    <!-- grid menu container -->
+    <div class="menu-container">
+    </div>
+
+    <!-- template -->
+    <template>
+        <div class="menu-item">
+            <span></span><br>
+            <span></span>
+        </div>
+    </template>
+    <!-- order form template -->
+    <h1>Order Form</h1>
+    <form action="/orders" method="POST" id="add-order">
+        <label for="item_id">Item:</label><br>
+        <select id="item_id" name="item_id" style='width:90%;' required>
+            <option value="" disabled selected> -- Select an option -- </option>
+        </select>
+        <!--make sure to validate form fields-->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" maxlength="9" required>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min=0 maxlength="50" style="width:40%;" required
+            oninvalid='this.setCustomValidity("Please enter a number.")'' oninput = "this.setCustomValidity('')"><br>
+        <p id = "cost">Cost: $0</p>
+        <input type = "hidden" id = "status" display="none">
+        <input type='submit' value='Submit'>
+    </form>
+
+</body>
+
+</html>
