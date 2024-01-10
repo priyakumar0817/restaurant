@@ -1,5 +1,17 @@
 # Tech Assignment 6 - Priya Senthilkumar A17142735 README.md FILE
 
+**Example Outputs**:  
+<img width="486" alt="image" src="https://github.com/priyakumar0817/restaurant/assets/66938260/2c6b858e-1440-48fe-a680-8ae579f8b5e7">   
+<img width="323" alt="image" src="https://github.com/priyakumar0817/restaurant/assets/66938260/0dc983d0-72ce-46c0-b985-53311f202755">   
+<img width="250" alt="image" src="https://github.com/priyakumar0817/restaurant/assets/66938260/191898bd-b6ba-41bd-921e-1a582f616bb4">
+
+
+
+
+
+
+
+
 **Objective of assignment**: The objective of this last official tech assignment is to build a full end to end application from all the different concepts we learned in class (Backend, Frontend, server interactions, JavaScript, HTML, CSS, python, etc.) to create a restaurant ordering system. The tutorial goes over data validation that can be done at any level of the code, and its recommended to start validation as early as the HTML code. We watched a quick video on how to Join tables based on set theory. This helps us create any type of combinations of our given table to subsets of that table. This gives us control over how data is selected, so we can do a left or right join based on certain conditions like a book author id in a book table being compared to an author id in an authors table. We can do queries like focusing on one table and binding it to another based on primary and foreign keys. This assignment helps us prepare for the final challenge we later have to do, a full fledged website! 
 
 
