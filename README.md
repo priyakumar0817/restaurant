@@ -11,6 +11,8 @@ This project makes use of:
 <img width="250" alt="image" src="https://github.com/priyakumar0817/restaurant/assets/66938260/191898bd-b6ba-41bd-921e-1a582f616bb4">
 
 
+## View Video Demo:  
+[Video Demo](https://github.com/priyakumar0817/restaurant/assets/66938260/dbf4a25e-fbbe-4909-86ad-013cf179c957)
 
 
 
